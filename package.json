@@ -1,0 +1,17 @@
+{
+  "name": "req-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "华为云 CodeArts 需求管理工作项命令行工具（CreateIssueV4）",
+  "type": "module",
+  "bin": {
+    "req-cli": "./req-cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/req-cli.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
